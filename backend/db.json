@@ -1,0 +1,25 @@
+{
+  "cadastros": [
+    {
+      "nome": "Filipe Augusto",
+      "sobrenome": "André Husak",
+      "email": "filipe.husak87@gmail.com",
+      "senha": "admin",
+      "id": 1
+    },
+    {
+      "nome": "Ana Carolina",
+      "sobrenome": "Prado",
+      "email": "cabral.anac13@gmail.com",
+      "senha": "s2cines3",
+      "id": 2
+    },
+    {
+      "nome": "Chico",
+      "sobrenome": "Liro",
+      "email": "chico@chicote",
+      "senha": "123",
+      "id": 3
+    }
+  ]
+}

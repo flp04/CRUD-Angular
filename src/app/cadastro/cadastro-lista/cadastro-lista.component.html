@@ -1,0 +1,9 @@
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let cadastro of cadastros, let i = index">
+        <a class="nav-link active" aria-current="page" 
+            (click)="carregarCadastro(cadastro['id'])" 
+            [routerLink]="['../cadastro-detalhe']">
+                {{cadastro['nome']}} {{cadastro['sobrenome']}}
+        </a>
+    </li>
+</ul>

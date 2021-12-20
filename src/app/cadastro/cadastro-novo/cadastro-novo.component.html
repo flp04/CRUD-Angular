@@ -1,0 +1,21 @@
+<form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputNome" class="form-label">Nome</label>
+      <input type="text" class="form-control" id="inputNome" name="nome" [(ngModel)]="cadastro.nome">
+    </div>
+    <div class="col-md-6">
+      <label for="inputSobrenome" class="form-label">Sobrenome</label>
+      <input type="text" class="form-control" id="inputSobrenome" name="sobrenome" [(ngModel)]="cadastro.sobrenome">
+    </div>
+    <div class="col-md-6">
+        <label for="inputEmail" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail" name="email" [(ngModel)]="cadastro.email">
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Senha</label>
+        <input type="password" class="form-control" id="inputSenha" name="senha" [(ngModel)]="cadastro.senha">
+      </div>
+    <div class="col-12">
+      <button (click)="novoCadastro()" class="btn btn-primary">Cadastrar</button>
+    </div>
+  </form>
