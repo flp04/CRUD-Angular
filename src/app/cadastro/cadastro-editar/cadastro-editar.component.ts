@@ -42,4 +42,14 @@ export class CadastroEditarComponent implements OnInit {
       }
     );
   }
+  mostrarSenha(){
+    let atributo = document.getElementById('inputSenha')?.getAttribute('type');
+    if(atributo == 'password'){
+      document.getElementById('inputSenha')?.setAttribute('type','text');
+      document.getElementById('imgMostrarSenha')?.setAttribute('src','../../../assets/img/eye.svg');
+    }else{
+      document.getElementById('inputSenha')?.setAttribute('type','password');
+      document.getElementById('imgMostrarSenha')?.setAttribute('src','../../../assets/img/eye-slash.svg');
+    }
+  }
 }

@@ -13,7 +13,12 @@
       </div>
       <div class="col-md-6">
         <label for="inputPassword4" class="form-label">Senha</label>
-        <input type="password" class="form-control" id="inputSenha" name="senha" [(ngModel)]="cadastro.senha">
+        <div class="input-group mb-3">
+            <input type="password" class="form-control" id="inputSenha" name="senha" [(ngModel)]="cadastro.senha">
+            <span class="input-group-text" (click)="mostrarSenha()">
+                <img src="../../../assets/img/eye-slash.svg" id="imgMostrarSenha" alt="">
+            </span>
+        </div>
       </div>
     <div class="col-6">
       <button  class="btn btn-primary" (click)="salvarCadastro()">Salvar</button>
