@@ -26,4 +26,7 @@ export class CadastroService {
   deleteCadastro(id: any){
     return this.httpClient.delete(`${baseURL}/${id}`);
   }
+  readByEmail(email: any):Observable<any>{
+    return this.httpClient.get(`${baseURL}/?email=${email}`)
+  }
 }

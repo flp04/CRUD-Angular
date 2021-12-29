@@ -9,6 +9,8 @@ import { CadastroDetalheComponent } from './cadastro/cadastro-detalhe/cadastro-d
 import { CadastroNovoComponent } from './cadastro/cadastro-novo/cadastro-novo.component';
 import { CadastroListaComponent } from './cadastro/cadastro-lista/cadastro-lista.component';
 import { CadastroEditarComponent } from './cadastro/cadastro-editar/cadastro-editar.component';
+import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { CadastroEditarComponent } from './cadastro/cadastro-editar/cadastro-edi
     CadastroDetalheComponent,
     CadastroNovoComponent,
     CadastroListaComponent,
-    CadastroEditarComponent
+    CadastroEditarComponent,
+    LoginComponent,
+    HomeComponent
     
   ],
   imports: [
